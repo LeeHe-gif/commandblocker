@@ -1,3 +1,5 @@
+先build项目，制作工件的时候选上两个yml文件。
+
 将插件打包成 JAR 文件（使用 Maven 或 Gradle 构建）。
 
 将 JAR 文件放入服务器的 plugins 文件夹中。
@@ -11,3 +13,5 @@
 输入 /commandblocker off 禁用插件。
 
 输入 /commandblocker reload 重载配置文件。
+
+配置文件里“-”后面加要金庸的命令。
