@@ -1,1 +1,6 @@
+# 插件是否启用
+enabled: true
 
+# 要屏蔽的命令列表
+blocked-commands:
+  - command
