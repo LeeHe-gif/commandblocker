@@ -1,0 +1,19 @@
+name: CommandBlocker
+version: 1.0
+main: he.m346.cmdblock.CommandBlocker
+api-version: 1.16
+commands:
+  commandblocker:
+    description: 控制插件的启用、禁用和重载。
+    usage: /commandblocker <on|off|reload>
+    permission: commandblocker.admin
+permissions:
+  commandblocker.toggle:
+    description: 允许启用或禁用插件。
+    default: op
+  commandblocker.reload:
+    description: 允许重载配置文件。
+    default: op
+  commandblocker.admin:
+    description: 允许使用所有插件命令。
+    default: op
